@@ -1,0 +1,31 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+.bg-purple {
+    background-color: #7533F9 !important;
+}
+
+#main a {
+    color: gray;
+}
+
+#main a:hover {
+    color: rgb(73, 73, 73);
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+    color: var(--bs-primary) !important;
+}
